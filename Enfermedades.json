@@ -1,0 +1,94 @@
+{
+  "__v": 1,
+  "description": "Base de conocimiento sobre La Influenza en Tierra del Fuego",
+  "entries": [
+    {
+      "name": "COVID-19",
+      "description": "Enfermedad respiratoria muy contagiosa que es causada por el virus SARS-CoV-2. Este virus se transmite de persona a persona por medio las gotitas que se dispersan cuando la persona infectada tose, estornuda o habla...",
+      "props": [
+        "Tiene o ha tenido Fiebre + de 38°"
+      
+      ]
+    },
+
+
+
+
+
+    {
+      "name": "GRIPE LEVE / RESFRIO COMUN",
+      "description": "Es una Enfermedad común que afecta a la Nariz y Garganta, aunque puede ser molesta, nuestro cuerpo suele combatirlo sin necesidad de tratamiento médico y en la mayoría de los casosy se resuelve por sí sola..",
+      "props": [
+        "",
+        " "
+        
+      ]
+    },
+
+
+
+
+
+
+    {
+      "name": "NEUMONÍA",
+      "description": "Es una infección de los pulmones que causa inflamación en los alvéolos, los pequeños sacos de aire que permiten el intercambio de oxígeno y dióxido de carbono, esta inflamación puede llenarlos de líquido o pus, dificultando la respiración.",
+      "props": [
+        " ",
+        " "    
+      ]
+    },
+
+
+
+
+    {
+      "name": "INFLUENZA TIPO A",
+      "description": ".",
+      "props": [
+        
+      ]
+    },
+
+
+    {
+      "name": "INFLUENZA TIPO B",
+      "description": ".",
+      "props": [
+       
+      ]
+    },
+
+
+    {
+      "name": "INFLUENZA TIPO C",
+      "description": ".",
+      "props": [
+        
+      ]
+    },
+
+
+    {
+      "name": "INFLUENZA TIPO D",
+      "description": ".",
+      "props": [
+       
+      ]
+    },
+
+
+
+    {
+      "name": "BRONQUITIS",
+      "description": " Es la inflamación del revestimiento de los conductos bronquiales que transportan el aire dentro y fuera de los Pulmones..",
+      "props": [
+        "Tiene Fiebre / Escalofrios",
+        " "
+        
+      ]
+    }
+
+
+  ]
+}
