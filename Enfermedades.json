@@ -3,92 +3,150 @@
   "description": "Base de conocimiento sobre La Influenza en Tierra del Fuego",
   "entries": [
     {
-      "name": "COVID-19",
-      "description": "Enfermedad respiratoria muy contagiosa que es causada por el virus SARS-CoV-2. Este virus se transmite de persona a persona por medio las gotitas que se dispersan cuando la persona infectada tose, estornuda o habla...",
-      "props": [
-        "Tiene o ha tenido Fiebre + de 38°"
-      
-      ]
-    },
-
-
-
-
-
-    {
-      "name": "GRIPE LEVE / RESFRIO COMUN",
-      "description": "Es una Enfermedad común que afecta a la Nariz y Garganta, aunque puede ser molesta, nuestro cuerpo suele combatirlo sin necesidad de tratamiento médico y en la mayoría de los casosy se resuelve por sí sola..",
-      "props": [
-        "",
-        " "
-        
-      ]
-    },
-
-
-
-
-
-
-    {
-      "name": "NEUMONÍA",
+      "name": "Es probable que sea NEUMONÍA",
       "description": "Es una infección de los pulmones que causa inflamación en los alvéolos, los pequeños sacos de aire que permiten el intercambio de oxígeno y dióxido de carbono, esta inflamación puede llenarlos de líquido o pus, dificultando la respiración.",
       "props": [
-        " ",
-        " "    
+        "Tiene o ha tenido Fiebre + de 38°",
+        "Tiene Escalofrios",
+        "Tiene Fatiga Constante",
+        "Tiene Dolores Musculares",
+        "Tos Seca con Flema",
+        "Sudoracion con perdida de peso"    
       ]
     },
-
-
-
-
     {
-      "name": "INFLUENZA TIPO A",
-      "description": ".",
+      "name": "Es probable que sea COVID-19. - Requiere un Analisis de PCR",
+      "description": "Enfermedad respiratoria muy contagiosa que es causada por el virus SARS-CoV-2. Este virus se transmite de persona a persona por medio las gotitas que se dispersan cuando la persona infectada tose, estornuda o habla...",
       "props": [
-        
+        "Tiene o ha tenido Fiebre + de 38°",
+        "Tiene Escalofrios",
+        "Tiene Fatiga Constante",
+        "Tiene Dolores Musculares",
+        "Perdida del Olfato o el Gusto"
       ]
     },
-
-
     {
-      "name": "INFLUENZA TIPO B",
-      "description": ".",
+      "name": "Es probable que sea la INFLUENZA de TIPO A - Consulte Calendario de Vacunación",
+      "description": "La Gripe A es una enfermedad infecciosa causada por un virus de la influenza tipo A.",
       "props": [
-       
+        "Tiene o ha tenido Fiebre + de 38°",
+        "Tiene Escalofrios",
+        "Tiene Fatiga Constante",
+        "Tiene los Ojos Hinchados"
       ]
     },
-
-
     {
-      "name": "INFLUENZA TIPO C",
-      "description": ".",
+      "name": "Es probable que sea INFLUENZA de TIPO B - Consulte Calendario de Vacunación",
+      "description": "Este virus tiende a generar brotes mas estacionales y afecta a niños y jovenes.",
       "props": [
-        
+        "Tiene o ha tenido Fiebre + de 38°",
+        "Tiene Escalofrios",
+        "Tiene Vomitos o Diarreas"
       ]
     },
-
-
     {
-      "name": "INFLUENZA TIPO D",
-      "description": ".",
+      "name": "Es probable que sea INFLUENZA de TIPO D - Requiere Estudios mas ",
+      "description": "Es el único tipo de virus que afecta principalmente al ganado y que frecuentemente se propaga a otras especies.",
       "props": [
-       
+        "Tiene o ha tenido Fiebre + de 38°",
+        "Tiene Escalofrios",
+        "Estuvo en contacto con Animales (Bovino o Porcino)"
       ]
     },
-
-
-
     {
-      "name": "BRONQUITIS",
+      "name": "Enfermedad NO Detectada - Se creia posible NEUMONIA",
+      "description": "Es probable que necesite realizarce Estudios Medicos mas complejos - (Analisis de Sangre, Orina, RX, ETC).",
+      "props": [
+        "Tiene o ha tenido Fiebre + de 38°",
+        "Tiene Escalofrios",
+        "Tiene Fatiga Constante",
+        "Tiene Dolores Musculares",
+        "Tos Seca con Flema"      
+      ]
+    },
+    {
+      "name": "Enfermedad NO Detectada - Se creia posible COVID-19",
+      "description": "Es probable que necesite realizarce Estudios Medicos mas complejos - (Analisis de Sangre, Orina, RX, ETC).",
+      "props": [
+        "Tiene o ha tenido Fiebre + de 38°",
+        "Tiene Escalofrios",
+        "Tiene Fatiga Constante",
+        "Tiene Dolores Musculares"
+      ]
+    },
+    {
+      "name": "Enfermedad NO Detectada - Se creia posoble INFLUENZA del TIPO A",
+      "description": "Es probable que necesite realizarce Estudios Medicos mas complejos - (Analisis de Sangre, Orina, RX, ETC).",
+      "props": [
+        "Tiene o ha tenido Fiebre + de 38°",
+        "Tiene Escalofrios",
+        "Tiene Fatiga Constante"
+      ]
+    },
+    {
+      "name": "Enfermedad NO Detectada - Se creia posoble INFLUENZA del TIPO D",
+      "description": "Es probable que necesite realizarce Estudios Medicos mas complejos - (Analisis de Sangre, Orina, RX, ETC).",
+      "props": [
+        "Tiene o ha tenido Fiebre + de 38°",
+        "Tiene Escalofrios"
+      ]
+    },
+    {
+      "name": "Enfermedad NO Detectada",
+      "description": "Es probable que necesite realizarce Estudios Medicos mas complejos - (Analisis de Sangre, Orina, RX, ETC).",
+      "props": [
+        "Tiene o ha tenido Fiebre + de 38°"
+      ]
+    },
+    {
+      "name": "Es probable que sea BRONQUITIS",
       "description": " Es la inflamación del revestimiento de los conductos bronquiales que transportan el aire dentro y fuera de los Pulmones..",
       "props": [
-        "Tiene Fiebre / Escalofrios",
-        " "
-        
+        "Tiene Tos Persistente",
+        "Tiene Dolor de Garganta",
+        "Tiene congestión Nasal",
+        "Tiene Respiración Ruidosa o Ronca"
+      ]
+    },
+    {
+      "name": "Es probable que sea una GRIPE LEVE / RESFRIO COMUN",
+      "description": "Es una Enfermedad común que afecta a la Nariz y Garganta, aunque puede ser molesta, nuestro cuerpo suele combatirlo sin necesidad de tratamiento médico y en la mayoría de los casosy se resuelve por sí sola..",
+      "props": [
+        "Tiene Tos Persistente",
+        "Tiene Dolor de Garganta",
+        "Tiene congestión Nasal"
+      ]
+    },
+    {
+      "name": "Es probable que sea de INFLUENZA TIPO C",
+      "description": "Es el único tipo de virus que causa la Enfermedad Leve no es frecuente que cause complicaciones o casos graves.",
+      "props": [
+        "Tiene Tos Persistente",
+        "Tiene Dolor de Garganta",
+        "El Paciente es un Niño o Niña"
+      ]
+    },
+    {
+      "name": "Enfermedad NO Detectada - Se creia posible INFLUENZA del TIPO C",
+      "description": "Es probable que necesite realizarce Estudios Medicos mas complejos - (Analisis de Sangre, Orina, RX, ETC).",
+      "props": [
+        "Tiene Tos Persistente",
+        "Tiene Dolor de Garganta"
+      ]
+    },
+    {
+      "name": "El Paciente NO llega a presenta sintomas de Resfrios",
+      "description": "Controlarse dentro de las 24 a 48 Hs. por si presenta algun Sintoma",
+      "props": [
+        "Tiene Tos Persistente"
+      ]
+    },
+    {
+      "name": "El Paciente no presenta sintomas...",
+      "description": "Controlarse dentro de las 24 a 48 Hs. por si presenta algun Sintoma",
+      "props": [
       ]
     }
-
 
   ]
 }
