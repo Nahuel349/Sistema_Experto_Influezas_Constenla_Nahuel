@@ -145,9 +145,16 @@ Fiebre alta (Sí) ➔ Escalofríos (Sí) ➔ Fatiga constante (Sí) ➔ Vómitos
 
     •	Diagnóstico de NEUMONIA.
 
-#### Github
+##### Github
 
-•	https://github.com/Nahuel349/Sistema_Experto_Influezas_Constenla_Nahuel.git
+    •	https://github.com/Nahuel349/Sistema_Experto_Influezas_Constenla_Nahuel.git
 
-    Archivo en la Carpeta Documentación: Enfermedades.JSON
-    Archivo en la Carpeta Documentación: Árbol Decision.PNG
+
+##### Conocimiento de Sistema Experto
+
+    •	Archivo: Enfermedades.JSON
+
+
+##### Árbol de Decisión
+
+    •	Archivo en la “Carpeta Documentación”: Árbol Decision.PNG
