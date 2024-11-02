@@ -114,3 +114,40 @@ La base de conocimiento propuesta proporciona una estructura para el desarrollo 
 en Tierra del Fuego, la cual fue expuesta a la consulta y análisis de corrección de expertos humanos, en este caso, 
 doctores del Hospital de Río Grande con conocimiento en Infectologia. Sin embargo, es importante destacar que este es solo 
 un punto de partida y que se requiere un mayor desarrollo y validación para garantizar su utilidad en la práctica clínica. 
+
+#### REGLAS, CRITERIOS Y ESTRUCTURAS DEL SISTEMA EXPERTO 
+
+El conocimiento en este sistema está organizado en función de los síntomas, agrupándolos según su nivel y la jerarquización sigue un flujo lógico desde síntomas generales hasta síntomas más específicos para un diagnóstico más aproximado. Esto permite al sistema realizar diagnósticos progresivos y minimizar errores.
+
+##### Ejemplos
+
+    •	Síntomas Iniciales como Fiebre, escalofríos, tos persistente, dolor de garganta.
+    •	Síntomas Adicionales Específicos tales como Congestión nasal, fatiga constante, dolores musculares, etc.
+    •	Condiciones Externas o Específicas que pueden ser Contacto con animales, pérdida del olfato o gusto, etc.
+
+##### MÉTODOS DE INFERENCIA REGLAS - IF-THEN - ÁRBOLE DE DECISIÓN
+
+##### Ejemplo
+
+1.- Supongamos que un paciente presenta los siguientes síntomas:
+
+    •	Tiene fiebre de más de 38°C.
+    •	Tiene escalofríos y fatiga constante.
+    •	NO presenta vómitos ni diarrea.
+    •	Tiene dolores musculares y tos seca con flema.
+    •	NO ha perdido el olfato ni el gusto, pero tiene sudoración y pérdida de peso.
+
+2.- El flujo de decisión en el sistema sería:
+
+Fiebre alta (Sí) ➔ Escalofríos (Sí) ➔ Fatiga constante (Sí) ➔ Vómitos o diarrea (No) ➔ Dolores musculares (Sí) ➔ Tos seca con flema (Sí) ➔ Pérdida de peso (Sí).
+
+3.- Resultado: 
+
+    •	Diagnóstico de NEUMONIA.
+
+#### Github
+
+•	https://github.com/Nahuel349/Sistema_Experto_Influezas_Constenla_Nahuel.git
+
+    Archivo en la Carpeta Documentación: Enfermedades.JSON
+    Archivo en la Carpeta Documentación: Árbol Decision.PNG
