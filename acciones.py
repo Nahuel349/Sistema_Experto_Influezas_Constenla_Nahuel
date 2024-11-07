@@ -1,12 +1,17 @@
 """
-Interfaz de consola
+Interfaz de consola y funciones de manejo de la base de conocimientos
 """
 from experto_general.engine import Engine
-from tkinter import messagebox
 
 # Motor como variable global
 engine = Engine()
 
+# Carga la base de conocimientos
+try:
+    engine.base.from_json("Enfermedades.json")
+    print("'LA BASE DE CONOCIMIENTO ENFERMEDADES....' Se cargado OK.")
+except Exception as e:
+    print(f"ERROR.... NO se cargo la Base de Conocimientos: {e}")
 
 def insertar(nombre, prop):
     if nombre and prop:
@@ -14,29 +19,30 @@ def insertar(nombre, prop):
         entry.get_or_add_prop(prop)
         print(f"Entrada agregada: {entry}")
     else:
-        print("No se admiten vacíos")
-        messagebox.showinfo(message="No se admiten valores vacíos", title="Aviso")
-
+        print("No se admiten valores vacíos")
 
 def get_base_entries():
     return engine.base.entries
 
-
 def guardar(entrada):
+    """
+    Guarda la base de conocimientos
+    """
     if entrada:
         engine.base.to_json(entrada.strip())
-        messagebox.showinfo(message="El archivo fue guardado con éxito", title="Guardado")
+        print("Se guardado con éxito el Archivo")
     else:
-        messagebox.showinfo(message="Elige un nombre para el archivo", title="Guardado")
-
+        print("Elegir un nombre....")
 
 def cargar(entrada):
+    """
+    Carga la base de conocimientos
+    """
     if entrada:
         try:
             engine.base.from_json(entrada.strip())
-            messagebox.showinfo(message="El archivo fue cargado con éxito", title="Cargado")
+            print("Se cargado con éxito el Archivo")
         except KeyError:
-            messagebox.showinfo(message="Archivo inválido o con formato incorrecto", title="Cargado")
-
+            print("ERROR inválido o con Formato incorrecto")
     else:
-        messagebox.showinfo(message="Elige un nombre del archivo a cargar", title="Guardado")
+        print("Elige un nombre.......")

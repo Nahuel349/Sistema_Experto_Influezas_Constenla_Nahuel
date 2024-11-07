@@ -158,3 +158,26 @@ Fiebre alta (Sí) ➔ Escalofríos (Sí) ➔ Fatiga constante (Sí) ➔ Vómitos
 ##### Árbol de Decisión
 
     •	Archivo en la “Carpeta Documentación”: Árbol Decision.PNG
+
+
+--------------------------------------------
+
+
+
+
+### Guía de Instalación y Ejecución
+
+Esta guía te ayudará a configurar y ejecutar el sistema experto sobre delitos utilizando **FastAPI** para el backend y **React** para el frontend. Asegúrate de seguir cada paso con precisión.
+
+#### Requisitos previos
+
+- **Python** y **pip** instalados en tu sistema.
+- **Node.js** y **npm** instalados.
+- Editor de código como **Visual Studio Code (VSC)**.
+
+---
+
+### Pasos de Instalación
+
+#### 1. Clonar el repositorio
+Clona el repositorio del sistema experto a tu computadora local. Esto crea una carpeta con el proyecto.
