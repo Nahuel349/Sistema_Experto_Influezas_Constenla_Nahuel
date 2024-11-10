@@ -10,7 +10,7 @@ import './App.css'; // Importar App.css
 function App() {
   return (
     <div className="App">
-      <h1>Sistema Experto "Gravedad y penas de los delitos"</h1>
+      <h1>Sistema Experto "La Influenza en Tierra del Fuego"</h1>
       <Chatbot />
     </div>
   );
