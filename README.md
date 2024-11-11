@@ -162,14 +162,13 @@ Fiebre alta (Sí) ➔ Escalofríos (Sí) ➔ Fatiga constante (Sí) ➔ Vómitos
 
 --------------------------------------------
 
+## Guía para la Ejecución 
 
+La guía ayudará a configurar y ejecutar el Sistema Experto utilizando el Framework Web **FastAPI** y la biblioteca de JavaScript **React**.
 
+Seguir cada paso con precisión.
 
-### Guía de Instalación y Ejecución
-
-Esta guía te ayudará a configurar y ejecutar el sistema experto sobre delitos utilizando **FastAPI** para el backend y **React** para el frontend. Asegúrate de seguir cada paso con precisión.
-
-#### Requisitos previos
+#### Es importante tener instalado
 
 - **Python** y **pip** instalados en tu sistema.
 - **Node.js** y **npm** instalados.
@@ -179,5 +178,90 @@ Esta guía te ayudará a configurar y ejecutar el sistema experto sobre delitos 
 
 ### Pasos de Instalación
 
-#### 1. Clonar el repositorio
-Clona el repositorio del sistema experto a tu computadora local. Esto crea una carpeta con el proyecto.
+#### 1. Guardar el Repositorio "Influenzas" 
+Descargar del Repositorio el Sistema Experto **"Influenzas"** en su Disco Local, creara una carpeta con el proyecto.
+
+---
+
+#### 2. Configuración FastAPI
+
+a.- Abrir el PRG **Visual Studio Code (VSC)** y Accede al directorio del Repositorio el Sistema Experto **"Influenzas"**. Debera de estar en la raíz del proyecto, donde se encuentra tu archivo `main.py`.
+    
+b.- En una **"TERMINAL"** debera ejecutar ejecuta el siguiente comando para iniciar el servidor
+    
+        uvicorn main:app --reload 
+        
+Esto inicia el servidor en `http://127.0.0.1:8000`. El parámetro `--reload` permite reiniciar automáticamente el servidor cada vez que realices cambios en el código.
+
+c.- Verifica en el navegador que FastAPI esté corriendo correctamente en `http://127.0.0.1:8000/docs`.
+
+---
+
+#### 3. Configuración del Frontend (React)
+
+a.- **Directorio frontend**, se ubicado en `frontend/frontend` dentro de tu proyecto. 
+Debera abrir otra **"TERMINAL"**, luego poner le comando **"cd frontend"**. Debe hacerlo 2 veces.
+
+b.- **Dependencias de Node.js Instaladas** - Necesarias para el proyecto
+
+**Si YA las tiene Instaladas**  valla al Punto **"d"**.
+
+**Si NO las tiene Instaladas** realice lo siguiente primero. 
+    
+    b1.- Ejecuta el siguiente comando en la terminal:
+        npm install
+    
+    b2.- Si este comando da error, es probable que **Node.js** o **npm** no estén instalados.
+    Para instalar Node.js: Descarga Node.js desde [nodejs.org](https://nodejs.org/).
+    
+    b3.- Sigue las instrucciones de instalación y asegúrate de que Node.js esté añadido a las **variables de entorno** del sistema (Path).
+    
+    b4.- **Verifica la instalación de Node.js** ejecutando:
+        node -v
+        npm -v
+    Ambos comandos deberían mostrar un número de versión si están instalados correctamente.
+
+c.- Si **aún tienes problemas con los permisos en PowerShell** al ejecutar `npm install`, ejecuta el siguiente comando en la terminal PowerShell para permitir la ejecución de scripts de manera segura: Set-ExecutionPolicy -Scope CurrentUser RemoteSigned. Luego, vuelve a ejecutar `npm install`.
+
+d.- **Inicia el servidor "React"** en el puerto 3000 con el siguiente comando:
+
+    ´npm start´
+
+Esto debería iniciar el frontend en `http://localhost:3000`. Asegúrate de que este
+puerto no esté siendo utilizado por otra aplicación.
+
+---
+
+#### 4. Prueba de Conexión entre el Backend y el Frontend
+
+a.- Asegúrate de que ambos servidores (El Puerto 8000 el Puerto 3000) se estén ejecutándose sin errores.
+Sin no se "Abre", la pagina en el navegador copie...`http://localhost:3000` en el navegador para Intercambiar con el **"Sistema Experto INFLUENZAS"** a través de la interfaz cargada.
+
+---
+
+#### 5. Comandos en simples Pasos 
+    
+    a.- Iniciar el backend de FastAPI: "uvicorn main:app --reload"
+    b.- Instalar dependencias de React en `frontend/frontend`: "npm install"
+    c. Iniciar el servidor de React: "npm start"
+
+Siguiendo estos pasos, deberías el Sistema Experto Funcionar Correctamente. Revisar cada paso.
+
+
+### ARCHIVOS IMPORTANTES
+
+#### ENFERMEDADES.JSON
+El codigo describe la base del conocimiento del Sistema Experto Influenza en Tierra del Fuego
+
+#### ACCIONES.Py
+Este código implementa una interfaz de consola para gestionar la base de conocimientos usando un motor de inferencia.La interfaz permite cargar, modificar, guardar y recuperar información de la base de conocimientos.
+
+#### MAIN.Py
+
+Este código implementa una API con FastAPI para un sistema experto, que permite clasificar información con base en un conjunto de preguntas. La API permite cargar la base de conocimientos, iniciar las consulta y procesar las respuestas de usuarios.
+
+#### CARPETA DOCUMENTACIÓN
+
+* [Ver Documento](Documentacion/Arbol Decision.png)
+* [Ver Documento](documentacion/Entrega N°1.pdf)
+* [Ver Documento](documentacion/Entrega N°2.pdf)
